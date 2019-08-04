@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.HeadButton {
+  margin: 20px;
+  padding: 10px;
+  border: 2px;
+  border-radius: 10px;
+  border-color: rgb(44, 15, 92);
+  border-style: groove;
+  text-decoration: none;
+}
+
+.HeadButton:focus {
+  background-color: bisque;
+}
+
+.tabContent {
+  display: block;
+  z-index: 1;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  margin-top: 5px;
+  border: 2px;
+  border-radius: 5px;
+  border-color: rgb(44, 15, 92);
+  border-style: solid;
+  font-size: calc(10px + 1vmin);
+  background-color: white;
+}
+
+.button {
+  font-size: calc(10px + 1.5vmin);
+  margin: 10px;
+  padding: 5px;
+  border: 2px;
+  border-radius: 5px;
+  border-color: rgb(44, 15, 92);
+  border-style: solid;
+  text-decoration: none;
+}
+
+.button:focus {
+  border-bottom: 2px solid white;
+  z-index: 5;
+  background-color: white;
+  border-radius: 5px, 0px, 0px, 5px;
+}
