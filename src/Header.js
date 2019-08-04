@@ -6,7 +6,7 @@ const Header = () => (
     <Link className="HeadButton" to="/">
       "Home"
     </Link>
-    <Link className="HeadButton" to={`/Tabs`}>
+    <Link className="HeadButton" to="/tabs">
       "Tabs"
     </Link>
   </header>
